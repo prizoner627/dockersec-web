@@ -97,7 +97,7 @@ export default function Scan() {
     setLoading(true);
 
     axios
-      .get(`http://localhost:5000/host-result?id=${id}`)
+      .get(`http://34.142.253.123:5000/host-result?id=${id}`)
       .then((response) => {
         console.log(response.data);
 
@@ -113,7 +113,7 @@ export default function Scan() {
     setLoading(true);
 
     axios
-      .get(`http://localhost:5000/container-result?id=${id}`)
+      .get(`http://34.142.253.123:5000/container-result?id=${id}`)
       .then((response) => {
         console.log(response.data);
 
@@ -129,7 +129,7 @@ export default function Scan() {
     setLoading(true);
 
     axios
-      .get(`http://localhost:5000/get-benchmark?id=${id}`)
+      .get(`hthttp://34.142.253.123:5000/get-benchmark?id=${id}`)
       .then((response) => {
         console.log(response.data);
 
