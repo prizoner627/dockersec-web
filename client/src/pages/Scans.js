@@ -87,7 +87,7 @@ export default function Scans() {
     setLoading(true);
 
     axios
-      .get("http://localhost:5000/host-results")
+      .get("http://34.142.253.123:5000/host-results")
       .then((response) => {
         console.log(response.data);
 

@@ -129,7 +129,7 @@ export default function Scan() {
     setLoading(true);
 
     axios
-      .get(`hthttp://34.142.253.123:5000/get-benchmark?id=${id}`)
+      .get(`http://34.142.253.123:5000/get-benchmark?id=${id}`)
       .then((response) => {
         console.log(response.data);
 
